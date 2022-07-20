@@ -1,4 +1,3 @@
-Hyeonjae CHo
 Data Analyst
 
     Site : blog.naver.com/ilovelatale
