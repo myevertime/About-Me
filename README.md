@@ -5,8 +5,6 @@ Data Analyst
 
     Contact : ilovelatale@naver.com
 
-    More info : https://www.linkedin.com/in/hyeonjae-cho-66a095170/
-
 - Ad-messaging (2020 ~ present)
     1. message push-based e-commerce platform, Tdeal : role - data engineer
     2. targeted messaging service, TMS : role - data scientist
