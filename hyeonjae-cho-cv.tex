@@ -1,0 +1,335 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bf
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}] %
+%\titleformat{\section}{
+%  \vspace{-4pt}\scshape\raggedright\large
+%}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheadingone}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    %\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {#2}
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingtwo}[2]{
+    \item\vspace{-2pt}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & {\small #2}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingthree}[2]{
+    \item\vspace{-2pt}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\small#1} & {\small #2}
+    \end{tabular*}\vspace{-7pt}
+}
+
+%\newcommand{\resumeSubheading}[4]{
+%  \vspace{-2pt}\item
+%    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%      \textbf{#1} & #2 \\
+%      \textit{\small#3} & \textit{\small #4} \\
+%    \end{tabular*}\vspace{-7pt}
+%}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+%\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+%\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+%\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Large \scshape Hyeonjae Cho} \\ \vspace{2pt}
+    \small Email:  \href{mailto:ilovelatale@yonsei.ac.kr}{{ilovelatale@yonsei.ac.kr}} $|$ 
+    \href{https://blog.naver.com/ilovelatale}{{blog.naver.com/ilovelatale}}
+    $|$ 
+    \href{https://github.com/myevertime}{{github.com/myevertime}}
+    %\small Phone: +82-10-2703-1052 $|$ \href{mailto:x@xcom}{\underline{x.x.com}} $|$ 
+    %\href{https://linkedin.com/in/x}{\underline{linkedin.com/in/x}} $|$
+    %\href{https://github.com/x}{\underline{github.com/x}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingone
+      {Yonsei University}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Undergraduate Student}{Mar. 2016 – Feb. 2020}
+          \resumeItemListStart
+            \resumeItem{Bachelor of Arts in Economics}
+            \resumeItem{Bachelor of Science in Computer Science and Engineering}
+            \resumeItem{Total GPA of 4.1/4.3 (97/100); Graduated with High Honors}
+        \resumeItemListEnd
+  
+    \resumeSubheadingone
+      {George Washington University}{Washington D.C., U.S.}
+    \resumeSubheadingtwo
+      {Exchange Student}{Jan. 2018 – May 2018}
+          \resumeItemListStart
+            \resumeItem{Total GPA of 3.74/4.0}
+        \resumeItemListEnd
+
+    \resumeSubheadingone
+      {University of Illinois Urbana-Champaign}{Urbana-Champaign, IL, U.S.}
+    \resumeSubheadingtwo
+      {Graduate Student}{May. 2022 – August 2023}
+          \resumeItemListStart
+            \resumeItem{Master of Computer Science}
+            \resumeItem{Total GPA of 4.0/4.0}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Undergraduate Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingone
+      {Yonsei University Super Computing Lab}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Undergraduate Researcher}{Sep. 2019 – Dec. 2019}
+      \resumeItemListStart
+        \resumeItem{Implemented cache replacement policy using K-means algorithm to enhance last level cache hit rate with less overhead}
+        \resumeItem{Authored semifinal and final reports and created exhibition presentation materials}$|$\href{https://drive.google.com/file/d/1tdWqPrcHN92vLKJEBgHGemGQFwEZ92RH/view?usp=sharing}{{pdf}}$|$
+
+      \resumeItemListEnd
+      
+    \resumeSubheadingone
+      {Yonsei University Internet Computing Lab}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Undergraduate Researcher}{Mar. 2019 – May 2019}
+      \resumeItemListStart
+        \resumeItem{Analyzed the weaknesses of the knowledge graph-based model, RippleNet, by applying it to open data sources}
+        \resumeItem{Visualized network graphs of RippleNet to focus on extreme data and to extract logical and implemental errors}$|$\href{https://drive.google.com/file/d/1GwyKr07edwbqXFtQKAicSukckHUZCxce/view?usp=sharing}{{pdf}}$|$
+      \resumeItemListEnd
+
+    \resumeSubheadingone
+      {Ministry of Science and ICT}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Team Leader, Industry Research Team}{Apr. 2019 – Dec. 2019}
+      \resumeItemListStart
+        \resumeItem{Government-funded project; Budget: \$68,000}
+        \resumeItem{Categorized the key players of various industries by examining the blockchain ecosystem}
+        \resumeItem{Assessed the progress of technological advancements of each industry}
+        \resumeItem{Contributed toward establishing a strategy to enhance the blockchain industry in Korea}$|$\href{https://drive.google.com/file/d/1kpkAC4pYRuef8tJ8R6AqpmA0R4nICGkl/view?usp=sharing}{{pdf}}$|$
+      \resumeItemListEnd      
+     
+    \resumeSubHeadingListEnd
+
+%-----------Work Experience-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingone
+      {SK Telecom Co., Ltd.}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Data Analyst, Ad Tech Team}{Jan. 2020 – Present}
+      \resumeItemListStart
+        \resumeItem{Operate targeted advertising campaigns with machine learning models and improve their performances}
+        \resumeItem{Improve sales by 20\% by developing a recommendation system using service transaction logs}
+        \resumeItem{Spearhead data engineering tasks with AWS resources and Spark to aggregate major business performance indicators}
+        \resumeItem{Selected as an {\it additional contributor} for achievements within the organization}
+      \resumeItemListEnd
+      
+    \resumeSubheadingtwo
+      {Intern, Metatron Sales Team}{Jun. 2019 – Aug. 2019}
+      \resumeItemListStart
+        \resumeItem{Investigated strengths and weaknesses of representative business intelligence (BI) tools and analyzed market trends to recommend a suitable positioning strategy for an in-house BI solution}
+      \resumeItemListEnd
+
+    \resumeSubheadingone
+      {Ground X Corp.}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Research Assistant, Token Economy Team}{Jan. 2019 – Feb. 2019}
+      \resumeItemListStart
+        \resumeItem{Classified and analyzed Ethereum token standards by inspecting Ethereum token economy ecosystems}
+        \resumeItem{Collected blockchain transaction data by establishing full nodes for EOS and TRON utilizing AWS EC2 resources}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------Awards and Honors-----------
+\section{Awards and Honors}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingthree
+      {{\bf 2nd Prize in Yonsei Big Data Analysis Competition}, Yonsei University}{Sep. 2018}
+    \resumeSubheadingthree
+      {Academic Excellence Scholarship, Yonsei University}{Spring 2019, Fall 2017, Fall 2016}
+    \resumeSubheadingthree
+      {Yonsei Honors}{Spring 2019, Fall 2018}
+    \resumeSubheadingthree
+      {Yonsei Highest Honors}{Spring 2017, Spring 2016}
+      
+    \resumeSubHeadingListEnd
+
+%-----------Leadership Experience-----------
+\section{Leadership Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingone
+      {Yonsei University Blockchain Club}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Vice President}{Jan. 2019 – Jun. 2019}
+      \resumeItemListStart
+        \resumeItem{Executed an industry research team for a government-funded project at the Ministry of Science and ICT}
+        \resumeItem{Voluntarily orchestrated seminars on the token economy ecosystem and token standards}
+      \resumeItemListEnd
+
+    \resumeSubheadingone
+      {Yonsei University Big Data Analysis Competition}{Seoul, Korea}
+    \resumeSubheadingtwo
+      {Team Leader}{Sep. 2018}
+      \resumeItemListStart
+        \resumeItem{Tokenized social media reviews data to determine brand awareness and images}
+        \resumeItem{Conducted sentiment and association analyses to suggest a marketing strategy} $|$\href{https://github.com/myevertime/2018-Big-data-Contest}{{code}}$|$
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+    
+%-----------PATENTS AND PATENT APPLICATIONS-----------
+\section{Patent Applications}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingthree
+      {Korea Patent Application 10-2021-0108767}{Oct. 18, 2021}
+     \resumeSubheadingtwo
+      {A method for triggering mode decision and a message-based advertising platform}{}
+      \resumeItemListStart
+        \resumeItem{Patent for an algorithm that predicts customer preferences based on machine learning and assigns specific advertising campaigns to be sent via text message}
+      \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+%-----------Extra Curricular Activities-----------
+\section{Extracurricular Activities}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Personal Tech Blog}}{\small Jan. 2021 – Present}
+          \resumeItemListStart
+            \resumeItem{Study MLOps, AWS, Growth Hacking, ML/DL algorithms} $|$\href{https://blog.naver.com/ilovelatale}{{blog}}$|$
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Bandit for Recommendation System}} {\small May 2021 – Jul. 2021}
+          \resumeItemListStart
+            \resumeItem{Examined papers and codes of Multi-Armed Bandit (MAB) recommendation system, such as contextual bandit, stochastic bandit, and collaborative filtering bandit}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Scala, SQL, Java, C++, Bash} \\
+     \textbf{Cloud Technologies}{: AWS(Glue, S3, EC2, ECS, CloudWatch), GCP(BigQuery)} \\
+     \textbf{Frameworks}{: TensorFlow, PyTorch, Keras, scikit-learn} \\
+     \textbf{Databases}{: MySQL, Amazon Athena, Apache Spark, PostgreSQL} \\
+     \textbf{Tools}{: Docker, GitHub, Google Analytics, Google Tag Manager, Google Optimize} \\
+     
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
